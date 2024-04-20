@@ -6,7 +6,14 @@
 html{
   scroll-behavior: smooth;
 }
+#contactus{
 
+  text-align: center;
+  font-size: 3rem;
+  width:100%;
+  margin-left:10px;
+
+}
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +21,7 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
+  background-color: #000000;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -1279,4 +1287,34 @@ color: white;
   border-radius: 1000px;
   font-size: 20px;
   margin: 25px auto;
+}
+
+#icon{
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  height:6rem;
+  width:6rem;
+}
+
+.container1{
+    text-align: center;
+    font-size: 3rem;
+    width:100%;
+}
+
+#contactus{
+   
+    text-align: center;
+    font-size: 3rem;
+    width:100%;
+    margin-left:10px;
+
+}
+
+@media(max-width:500px)
+{
+   input{
+    height:3rem;
+    width:70%;
+   }
 }

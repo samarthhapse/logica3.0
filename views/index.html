@@ -1,5 +1,4 @@
-<html>
-
+<html>   
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../static/assets/logo.png">
@@ -34,7 +33,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-trans sticky-top">
                 <div style="margin-top: 5px;" class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="../static/assets/logo.png" alt="">
+                        <img src="../static/assets/logo.png" alt="" id="icon">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,11 +147,11 @@
     </section>
     </div>
     <!-- <div id="last"> -->
-        <div id="last" style="margin-top: -110px;" class="last">
-            <div class="container1">
-                <h1 style="margin-bottom:45px;color: white;">Register Here</h1>
+        <!-- <div id="last" style="" class="last"> -->
+            <div class="container1 last1" style="background-color:black;margin-top:-100px;margin-left:1rem;margin-right:1rem;">
+                <h1 style="margin-bottom:45px;color:white;text-decoration:underline solid white;font-size:2rem;"><b>Register Here</b></h1>
                 <form action="/contact" method="POST">
-                    <div class="form-group">
+                    <div class="form-group" style="margin:auto">
                         <input id="name" type="text" name="name" placeholder="Enter full name">
                     </div>
                     <div class="form-group">
@@ -162,42 +161,51 @@
                         <input type="email" name="email" placeholder="Enter email">
                     </div>
                     <div class="form-group">
-                        <input type="number" name="TxnId" placeholder="Enter Transaction number">
+                        <input  type="number" name="TxnId" placeholder="Enter Transaction number">
                     </div>
                     <!-- <button class="btn">Register</button> -->
                     <button style="color:white; border-radius:20px;margin-top:30px;background-color:rgb(22, 131, 255)" class="btn">Register</button>
                 </form>
             </div>
-            <div id="contactus">
+              <div id="contactus" style="text-align:center;margin-left:1rem;"> 
                 <div>
-                    <h1 style="color: white;">Contact Us</h1>
-                    <div style="margin-left: 210px;">
-                        <p style="margin-left:30px;color:white;margin-top:60px;font-size:25px;margin-left: -200px;"
+                    <h1 style="color:white;text-decoration:underline solid white;font-size:2rem;"><b>Contact Us</b></h1>
+                    <div style="margin-left: 210px;margin-top: -30px;">
+                        <p style="margin-left:30px;color:white;margin-top:60px;font-size:1.5rem;margin-left: -200px;"
                             class="">Sumit
-                            Karanjkar : (+91) 8380981469</p>
-                    </div>
-                    <div style="margin-left: 210px;">
-                        <p style="margin-left:30px;color:white;margin-top:40px;font-size:25px;margin-left: -200px;"
-                            class="">Pavan
+                            Karanjkar:(+91) 8380981469<br>Pavan
                             Kulkarni : (+91) 9604432379</p>
                     </div>
-                </div>
-                <div style="display: flex;" class="col-md-3">
-                    <!-- <div class="socialmedia  text-left"> -->
-                    <!-- <div class="socialmediaico"> -->
-                    <a href="https://www.instagram.com/acm.rscoe/" target="_blank"><img
-                            style="height: 150px;width:150px;margin:30px 75px 0px 100px"
-                            src="../static/assets/insta.png"></a>
-                    <a href="https://rscoe.acm.org/" target="_blank"><img
-                            style="height: 150px;width:150px;margin:30px 75px 0px 100px"
+                    <!-- <div style="margin-left: 210px;">
+                        <p style="margin-left:30px;color:white;margin-top:40px;font-size:1.5rem;margin-left: -200px;"
+                            class=""></p>
+                    </div>  -->
+                 </div>
+                <div  class="col-md-3" style="display:flex;margin:auto;justify-content: space-around;"> 
+                     <!-- <div class="socialmedia  text-left>
+                    <div class="socialmediaico"> 
+                    </div> 
+                    </div> -->
+                    <div><a href="https://www.instagram.com/acm.rscoe/"     target="_blank"><img
+                            style="height:5rem;width:5rem;"
+                            src="../static/assets/insta.png"></a></div>
+                     <div>
+                        <a href="https://rscoe.acm.org/" target="_blank"><img
+                            style="height: 5rem;width:5rem;"
                             src="../static/assets/logo.png"></a>
-                    <!-- </div> -->
-                    <!-- </div> -->
+                     </div>
+                     <div>
+                        <a href="https://www.linkedin.com/company/acm-rscoe" target="_blank"><img
+                            style="height:4rem;width:4rem;margin-top:0.5rem"
+                            src="../static/assets/logo3.png"></a>
+                     </div>
                 </div>
-            </div>
-        </div>
-        <div style="background-color: rgb(177, 5, 5);">
-        <p style="padding-left:500px" class="text-white fw-100 fs-13 m-0"> &#169; Organized with ❤️ by team ACM&nbsp;,&nbsp;Rscoe</p>
+                    
+            </div> 
+           
+       
+        <div style="background-color: rgb(177, 5, 5);text-align: center;">
+        <p style="width: 100%;" class="text-white fw-100 fs-13 m-0"> &#169; Organized with ❤️ by team ACM&nbsp;,&nbsp;Rscoe</p>
         </div>
     <!-- </div> -->
     <!-- pernguhubung js  -->
