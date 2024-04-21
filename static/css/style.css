@@ -14,6 +14,9 @@ html{
   margin-left:10px;
 
 }
+.temp{
+  display: none;
+}
 body {
     margin: 0;
     padding: 0;
@@ -393,6 +396,14 @@ header{
 .navbar-toggle {
     background-color: transparent !important;
     border: 0;
+}
+.navbar-toggler{
+  margin-top: 10px;
+}
+.navlogomobile{
+  margin-top: -20px;
+  padding-bottom: 40px;
+  padding-right: 25px;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -874,7 +885,12 @@ border: 4px solid #e62b1ea8;
   width: 100%;
   height: auto;
 }
-
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
 
 
 
@@ -947,7 +963,8 @@ border: 4px solid #e62b1ea8;
   padding-top: 0rem;
 }
 .dateandplace{
-  margin-left: 30px;
+  padding-top: 135px;
+  /* padding-left: -29px; */
 }
   .dateandplace h1{
   font-size: 26px;
@@ -957,7 +974,7 @@ border: 4px solid #e62b1ea8;
 }
   #main{
   position: relative;
-  background-image: url("../assets/bg.png");
+  background-image: url("../assets/bgmobile2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -965,6 +982,7 @@ border: 4px solid #e62b1ea8;
   .tedxspeaker {
     padding: 5px;
 }
+
 .speakers-box{
  margin: auto auto 13% auto;
     height: auto;
@@ -1050,6 +1068,7 @@ width: 275px;
     padding-top: 0px;
     width: 170px;
 }
+
 header {
     padding-top: 4px;
 }
@@ -1093,6 +1112,7 @@ padding-top:0px;
   font-size: 12px!important;
 }
 .navbar{
+  margin-top: -5px;
   position: fixed;
   width: 100%;
   background-color: black;
@@ -1308,6 +1328,42 @@ color: white;
     font-size: 3rem;
     width:100%;
     margin-left:10px;
+
+}
+@media (min-width:0px) and (max-width: 768px) {
+    /* #crew-rocket{
+      display: none;
+    } */
+    .temp{
+      display: block;
+      margin-bottom: 100px;
+    }
+    .tempalt{
+      display: none;
+    }
+    #temp1{
+      position: relative;
+      background-image: url("../assets/bg10.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .form-group input{
+      width: 300px;
+    }
+    #innovate{
+      /* top */
+      padding:107px 15px 0px 160px;
+      text-align: right;
+    }
+    #create{
+      padding:90px 160px 0px 20px;
+    }
+    #present{
+      padding:105px 30px 30px 160px;
+      text-align: right;
+
+    }
 
 }
 
